@@ -1,9 +1,14 @@
+import Hero from './components/hero';
+import AboutMe from './components/AboutMe';
 import './App.css';
 
 function App() {
 	return (
 		<>
-			<h1>Init</h1>
+			<div className="container">
+				<Hero />
+				<AboutMe />
+			</div>
 		</>
 	);
 }
