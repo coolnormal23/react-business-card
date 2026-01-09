@@ -1,3 +1,5 @@
+import bc from '../assets/bc.ico';
+
 function AboutMe() {
 	return (
 		<>
@@ -12,7 +14,7 @@ function AboutMe() {
 						target="_blank"
 						className="flex"
 					>
-						<img src="/src/assets/bc.ico" />
+						<img src={bc} />
 						<span>Boston College</span>
 					</a>
 				</section>
