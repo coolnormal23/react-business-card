@@ -1,4 +1,4 @@
-import bc from '/src/assets/bc.ico';
+import bc from '../assets/bc.ico';
 
 function AboutMe() {
 	return (

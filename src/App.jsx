@@ -1,6 +1,6 @@
-import Hero from '/src/components/hero';
-import AboutMe from '/src/components/AboutMe';
-import '/src/App.css';
+import Hero from './components/Hero';
+import AboutMe from './components/AboutMe';
+import './App.css';
 
 function App() {
 	return (
