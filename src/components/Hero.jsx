@@ -1,4 +1,4 @@
-import pfp from '../assets/pfp.webp';
+import pfp from '/src/assets/pfp.webp';
 
 function Hero() {
 	return (
