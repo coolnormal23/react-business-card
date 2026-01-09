@@ -29,6 +29,22 @@ main h1 {
 	font-weight: bold;
 }
 
+.buttons {
+	justify-content: center;
+}
+
+.buttons > a {
+	background-color: #771718;
+	color: #fcf8f7;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	gap: 1em;
+	align-items: center;
+	padding: 0.25em 1em;
+	text-decoration: none;
+}
+
 .bio-main {
 	text-align: left;
 	padding: 1em 1em 0 1em;
@@ -73,4 +89,8 @@ h4 {
 	.hero img {
 		max-height: 400px;
 	}
+}
+
+.flex {
+	display: flex;
 }

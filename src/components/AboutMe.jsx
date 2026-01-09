@@ -6,8 +6,15 @@ function AboutMe() {
 					<h1>Lucas Mattos</h1>
 					<p>M.A Student - Philosophy Department</p>
 				</section>
-				<section className="buttons">
-					<button>Example</button>
+				<section className="buttons flex">
+					<a
+						href="https://www.bc.edu/bc-web/schools/morrissey/departments/philosophy/people/ma-students/Lucas-Mattos.html"
+						target="_blank"
+						className="flex"
+					>
+						<img src="/src/assets/bc.ico" />
+						<span>Boston College</span>
+					</a>
 				</section>
 				<section className="bio-main">
 					<h2>Biography</h2>
